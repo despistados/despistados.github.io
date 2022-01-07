@@ -1,0 +1,293 @@
+/** -------- Main --------- **/
+
+html {
+    border:  0;
+    margin:  0;
+    padding: 0;
+}
+
+/** ---- Basic appearance ---- **/
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+    font-weight: 350;
+    line-height: 1.4;
+}
+
+/** Links ---- **/
+a { color: #822433;
+    text-decoration: none; }
+
+#content a { font-weight: bold; }
+#content a:hover { text-decoration: underline; }
+
+div#postamble a { font-weight: bold; }
+div#postamble a:hover {  text-decoration: underline; }
+
+/** -------- Navigator ---------
+
+   When then width of the page becomes too small, the navigators
+   shrinks to a vertical layout.
+*/
+
+div#preamble{
+    margin: auto;
+    max-width: 600px;
+    padding-left:10%;
+    padding-right:10%;
+}
+
+header {
+    text-align:center;
+}
+
+header img {
+    padding:0;
+    margin: 0;
+    width: 600px;
+}
+
+#nav a {
+    display: inline-block;
+    color: #000;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#nav span.sep {
+    display: inline-block;
+    color: #000;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    #nav a {
+        padding: 8px 10px;
+        display: block;
+    }
+
+    header img {
+        display: none;
+    }
+
+    #nav span.sep {
+        display: none;
+    }
+
+    #catchphrase {
+        display: none;
+    }
+
+    #nav {
+        font-size: normal;
+    }
+
+}
+
+
+#nav {
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+}
+
+#nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#nav a:hover:not(.active) {
+    background-color: #822433;
+    color: white;
+}
+
+
+#blogname {
+    font-family: Palatino;
+    font-size: 300%;
+    text-transform: uppercase;
+    word-spacing: .2em;
+    letter-spacing: .05em;
+    margin-bottom: 0;
+}
+
+#blogname a {
+    color: #000;
+}
+
+
+#catchphrase {
+    font-family: Palatino;
+    font-size:1.2em;
+    font-style: italic;
+}
+/** ------ Content --------- **/
+
+#content {
+    margin: auto;
+    max-width: 600px;
+    padding-left:10%;
+    padding-right:10%;
+    text-align: justify;
+    hyphens: auto;
+}
+
+@media screen and (max-width: 600px){
+    main { font-size: 90%;}
+}
+
+
+h1.post-title {
+    text-align:center;
+}
+
+h2.post-title {
+    text-align:left;
+}
+
+div#footnotes {}
+
+.footpara { display: inline;}
+
+.footnum,.footref {
+    font-weight: bold;
+    font-size: 8pt;
+}
+
+.footref { margin-left: 3px; }
+
+div.taglist {
+    clear: both;
+    margin-top: 1em;
+}
+
+div#archive {
+    text-align: center;
+    font-size: 120%;
+    margin: 10px;
+}
+
+div.post-date {
+    border-top: 1px solid #000;
+    margin-top: 1.1em;
+    padding-top: 0.2em;
+}
+
+/** Code blocks:
+ They may be larger than the page width. I use word-wrap.
+*/
+div.org-src-container {
+    font-size: 85%;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+blockquote {
+    background: #f4f4f4;
+    border-left: 5px solid #822433;
+    margin: 0.5em 10px;
+    padding: 0.1em 10px;
+    color: #804000;
+    font-style: italic;
+    font-size: 0.9em;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+/** Figures: add zomm pictures */
+
+img {
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    transition: transform .2s; /* Animation */
+}
+
+img:hover {
+    transform: scale(1.5);  /* 15% */
+}
+
+/** Tables */
+table {
+    border: solid 1px #AAA;
+    border-collapse: collapse;
+    border-spacing: 0;
+
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+    box-shadow: 5px 5px 10px #555;
+}
+
+table thead th {
+    background-color: #822433;
+    border: solid 0px #000;
+    color: #fff;
+    padding: 10px 5px 10px 5px;
+    text-align: left;
+}
+
+table tr:nth-child(even) {
+    background: #FDD;
+}
+
+table tbody td {
+    border: solid 1px #AAA;
+    padding: 10px 5px 10px 5px;
+}
+
+
+
+
+/** ------ Footer --------- **/
+div#postamble {
+    margin: auto;
+    max-width: 600px;
+    clear: both;
+}
+
+footer {
+    border-top: 1px solid #000;
+    margin-top: 2%;
+    padding: 1%;
+    font-size:70%;
+    text-align: center
+}
+
+/* Contacts page */
+img#profile-pic {
+    width: 150px;
+    float: left;
+    border-radius: 50%;
+    margin-left: 0;
+    margin-right: 2em;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+
+#contacts-list {
+    list-style-type: none;
+    padding: 0;
+    float:inherit;
+}
+.contacts {
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (max-width: 600px){
+    img#profile-pic  {float: none;}
+    img#location-pic {float: none;}
+}

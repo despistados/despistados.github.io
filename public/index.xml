@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title><![CDATA[el blog de los despistados y desmemoriados]]></title>
+<description><![CDATA[el blog de los despistados y desmemoriados]]></description>
+<link>https://despistados.github.io</link>
+<lastBuildDate>Fri, 07 Jan 2022 19:02:46 +0100</lastBuildDate>
+<item>
+  <title><![CDATA[Primeros pasos con org-static-blog]]></title>
+  <description><![CDATA[
+<div id="outline-container-orge152ca8" class="outline-2">
+<h2 id="orge152ca8">Introducción</h2>
+<div class="outline-text-2" id="text-orge152ca8">
+<p>
+Tras varias pruebas comienzo mi andadura con org-static-blog
+</p>
+</div>
+</div>
+<div class="taglist"><a href="https://despistados.github.io/tags.html">Categoría</a>: <a href="https://despistados.github.io/tag-varios.html">varios</a> </div>]]></description>
+  <category><![CDATA[varios]]></category>
+  <link>https://despistados.github.io/2022-01-07-primeros-pasos-con-org-static-blog.html</link>
+  <pubDate>Fri, 07 Jan 2022 18:18:00 +0100</pubDate>
+</item>
+</channel>
+</rss>
