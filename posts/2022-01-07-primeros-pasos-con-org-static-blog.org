@@ -1,6 +1,0 @@
-#+title: Primeros pasos con org-static-blog
-#+date: <2022-01-07 18:18>
-#+description: Mi primer post con org-static-blog
-#+filetags: varios
-* Introducción
-  Tras varias pruebas comienzo mi andadura con org-static-blog
