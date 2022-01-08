@@ -1,0 +1,4 @@
+#+title: prueba
+#+date: <2022-01-08 17:51>
+#+description: artículo de prueba
+#+filetags: varios
