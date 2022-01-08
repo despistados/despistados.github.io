@@ -1,0 +1,6 @@
+#+title: primer post
+#+date: <2022-01-08 17:37>
+#+description: pruebas
+#+filetags: varios
+* Introducción
+  Este es el primer post completo
